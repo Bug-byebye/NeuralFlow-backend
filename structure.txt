@@ -1,0 +1,16 @@
+.
+├── venv/                    # Python 虚拟环境
+│   ├── Lib/
+│   ├── Scripts/
+│   └── pyvenv.cfg
+├── app/                     # 主应用程序目录
+│   ├── __init__.py          # 应用程序初始化文件，包含数据库连接等配置
+│   ├── main.py              # 应用程序入口文件，包含FastAPI实例和基础配置
+│   ├── api/                 # API路由层，处理HTTP请求和响应
+│   │   └── __init__.py
+│   ├── service/             # 业务逻辑层，实现具体的业务功能
+│   ├── core/                # 核心配置和工具
+│   │   └── __init__.py
+│   └── models/              # 数据模型定义
+│       └── __init__.py
+└── requirements.txt         # 项目依赖清单
